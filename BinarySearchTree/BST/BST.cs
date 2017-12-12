@@ -111,11 +111,11 @@ namespace BST
                     searchPath += "left ";
                     currentNode = currentNode.GetLeftChild();
                 }
-                else
-                {
-                    Console.WriteLine(searchPath);
-                    return true;
-                }
+            }
+            if(currentNode.GetValue()== searchValue)
+            {
+                Console.WriteLine(searchPath);
+                return true;
             }
             Console.WriteLine("The value could not be found");
             return false;

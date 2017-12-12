@@ -12,9 +12,9 @@ namespace BST
         {
             BST tree = new BST(68);
             //testing for equal head
-            tree.Search(68);
+ //           tree.Search(68);
             //testing for unequal to head
-            tree.Search(67);
+//            tree.Search(67);
             //testing add function
             tree.Add(11);
             tree.Add(50);
